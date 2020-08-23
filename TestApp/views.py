@@ -29,7 +29,7 @@ def home_view(request):
             form.save()
             messages.success(request, "Enquiry Submitted Successfully...")
             return HttpResponseRedirect("/")
-    return render(request,"TestApp/home.html",{"form":form,"msj1":msj1,"msj2":msj2})
+    return render(request,"TestApp/home.html",{"form":form,"msj1":msj1,"msj2":dt})
 
 
 
