@@ -10,6 +10,7 @@ def home_view(request):
     msj1=""
     msj2=""
     h=int(dt.strftime('%H'))
+    h=h+5
     if(h>=20):
         msj1="Good Night"
     elif(h>=16):
@@ -29,7 +30,7 @@ def home_view(request):
             form.save()
             messages.success(request, "Enquiry Submitted Successfully...")
             return HttpResponseRedirect("/")
-    return render(request,"TestApp/home.html",{"form":form,"msj1":msj1,"msj2":dt})
+    return render(request,"TestApp/home.html",{"form":form,"msj1":msj1,"msj2":msj2})
 
 
 
