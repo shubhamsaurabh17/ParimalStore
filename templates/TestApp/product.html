@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% extends "TestApp/base.html" %}
+{%block title_block%}Product View{%endblock%}
+{%block body_block%}
+{%if product%}
+<div class="container">
+  <h2 class="one">List Of Product Avaialble</h2>
+  <div class="sixt">
+<table border=2 class="fifit">
+  <thead>
+    <tr>
+      <th class="ad">Brand</th>
+    <th class="ad">Product</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%for x in product%}
+    <tbody>
+      <tr>
+        <td class="ad1">{{x.brand}}</td>
+        <td class="ad1">{{x.products}}</td>
+      </tr>
+    </tbody>
+    {%endfor%}
+  </tbody>
+</table>
+</div>
+{%else%}
+<p>No Data</p>
+{%endif%}
+{%endblock%}

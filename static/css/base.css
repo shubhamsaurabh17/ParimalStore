@@ -1,0 +1,260 @@
+* body{background-color: #cccccc;}
+
+.bg-dark{background-image:url("https://images.unsplash.com/photo-1542697149-cca3623abd0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") !important;}
+
+
+.bg-dark{background-color:#04204e !important;}
+
+.navbar-brand{font-weight:bold;
+font-size:28px;}
+
+.navbar-dark .navbat-nav .nav-link{margin:15px;
+font-size:14px;}
+
+.nav-link{text-transform:uppercase;
+margin:15px;
+font-weight:bold;}
+
+
+a .top{color: #ff1ac6;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 40px;}
+
+
+footer{background-color: black;
+color:red;
+padding:20px;
+font-size:20px;}
+
+footer a{color:red;
+text-decoration: none;}
+
+footer a:hover{color:blue;
+text-decoration: underline;}
+
+
+
+footer li{display: inline;}
+
+
+.ft{text-align: center;}
+
+
+article .img{float:right;
+margin:10px;}
+
+.one{text-align: center;
+color:#1a1aff;
+font-weight: bold;}
+
+article{clear:both;}
+
+hr{background-color: white;}
+
+
+div.three{text-align: center;}
+
+
+.seven{background-color: black;}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    }
+
+
+#demo{width:70%;
+    margin: 10px auto 10px auto;}
+
+
+.nine{text-align: center;
+font-weight: bold;}
+
+.ten{border-style: solid;
+border-color:green;
+margin:50px;
+border-radius: 10px;}
+
+.eleven{border-style:solid;
+margin:0px 100px 0px 100px;
+border-radius: 5px;
+box-shadow: 2px 4px green;}
+
+
+
+.twelve li{color:#ffff00;
+font-size: 15px;
+font-weight: bold;
+padding:10px;
+margin:10px;}
+
+.fifit{text-align: centre;
+margin:10px auto 10px auto;
+background-color:#595959;
+color:white;
+font-weight: bold;}
+
+
+.ad{color:#ffff00;
+background-color:#999999;
+text-align: center;
+font-weight: bold;
+font-size: 25px;
+padding:10px;
+}
+
+
+.ad1{padding:20px;}
+
+
+.test1{text-align: centre;
+  border-width: 10px;
+margin: 10px auto 10px auto;
+border-style: solid;}
+
+#test2{color:green;}
+
+
+#test4{text-align: justify;
+font-weight: bold;
+margin:0px 10px 0px 10px;}
+#test5{color:#2eb82e;
+font-style: italic;}
+
+.test6{background-color: #d9d9d9;}
+
+.float-right{margin-left:10px;}
+
+h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+.test7{text-align: justify;
+padding: 0px 10px 0px 10px;}
+
+
+.test8{text-align: center;
+font-weight: bold;
+font-size: 20px;
+color:yellow;
+border-style: solid;
+border-radius: 0px 20px 0px 20px;;
+background-image: url("https://images.unsplash.com/photo-1597565314812-f3b2cc80caed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");}

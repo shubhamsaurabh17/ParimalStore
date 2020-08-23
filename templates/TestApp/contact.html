@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{%extends "TestApp/base.html"%}
+{%load staticfiles%}
+{%block title_block%}Contact Us{%endblock%}
+{%block body_block%}
+
+<h2 class="one">CONTACT US</h2>
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 bg-basic">
+              <h4>Parimal Store (Oil Lubricant & Spares Parts)</h4>
+              <h5>Bhagalpur Dumka, Main Road, Rajaun, Bihar 813107</h5>
+              <br />
+              <p><img src="https://images.assetsdelivery.com/compings_v2/imagecatalogue/imagecatalogue1611/imagecatalogue161110600.jpg" height="40" width="40" alt=""> &nbsp 9771126280</p>
+              <p><img src="https://image.similarpng.com/very-thumbnail/2020/05/WhatsApp-icon-PNG.png" height="40" width="40" alt=""> &nbsp 9006836197</p>
+
+              <div class="alert alert-success alert-dismissible fade show">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong><a href="/callget" class="btn btn-success" role="button">Request A Call</a></strong>
+    </div>
+        <br />
+            </div>
+            <div class="col-sm-6 bg-basic">
+              <div class="eleven">
+              <figure>
+              <img src="{% static "images/utsav.jpg" %}" height="200" width="225" class="mx-auto d-block img-thumbnail" alt="">
+              <figcaption class="nine">Utsav Kumar<br />
+              <a href="https://m.facebook.com/utsabsingh578"><img src="{% static "images/a1.jpg" %}"></a>
+              </figcaption>
+              </figure>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<div class="ten">
+<h2 class="one">Location</h2>
+        <iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=parimal%20store%20rajoun%20banka%20bihar+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+      </iframe>
+    </div>
+</div>
+<div class="container">
+  <a href="/ss" class="btn btn-info btn-sm btn-block" role="button">Contact Admin</a>
+</div>
+
+{%endblock%}
