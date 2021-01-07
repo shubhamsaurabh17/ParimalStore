@@ -1,0 +1,2 @@
+# ParimalStore
+Django Project
